@@ -69,6 +69,8 @@ function M.get_options(config, ngx)
     id_token_header_name = config.id_token_header_name,
     access_token_header_name = config.access_token_header_name,
     access_token_as_bearer = config.access_token_as_bearer == "yes",
+    refresh_token_header_name = config.refresh_token_header_name,
+    refresh_token_upstream = config.refresh_token_upstream == "yes",
     disable_userinfo_header = config.disable_userinfo_header == "yes",
     disable_id_token_header = config.disable_id_token_header == "yes",
     disable_access_token_header = config.disable_access_token_header == "yes",
